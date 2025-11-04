@@ -1,0 +1,138 @@
+# ──────────────────────────────────────────────────────────────
+# 1. Python / Virtual Environment
+# ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache/
+.dmypy.json
+.pytest_cache/
+htmlcov/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ──────────────────────────────────────────────────────────────
+# 2. VS Code
+# ──────────────────────────────────────────────────────────────
+.vscode/
+!.vscode/settings.json      # Keep project-specific settings
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ──────────────────────────────────────────────────────────────
+# 3. Large ML / YOLO Files
+# ──────────────────────────────────────────────────────────────
+# Trained models (usually > 10 MB)
+runs/
+*.pt
+*.pth
+*.weights
+*.engine
+*.onnx
+*.tflite
+*.pb
+
+# Dataset (images, videos, annotations)
+data/
+dataset/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# YOLO caches (label caches, image lists)
+*.cache
+*.cache.*
+label*.cache
+
+# Logs & TensorBoard
+logs/
+log/
+tensorboard/
+events.out.tfevents.*
+
+# Exported results
+results/
+output/
+export/
+*.csv
+*.json
+*.xml
+*.txt   # only if generated (keep small config .txt)
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ──────────────────────────────────────────────────────────────
+# 4. Optional: Keep tiny assets (configs, yaml, small scripts)
+# ──────────────────────────────────────────────────────────────
+!data.yaml
+!*.yaml
+!*.yml
+!requirements.txt
+!app.py
+!train.py
+!infer.py
+!*.ipynb   # keep notebooks if small
+
+# ──────────────────────────────────────────────────────────────
+# 5. OS / IDE specific
+# ──────────────────────────────────────────────────────────────
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.trash-*/
+
+# JetBrains / PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
