@@ -48,9 +48,6 @@ htmlcov/
 # ──────────────────────────────────────────────────────────────
 # Trained models (usually > 10 MB)
 runs/
-*.pt
-*.pth
-*.weights
 *.engine
 *.onnx
 *.tflite
