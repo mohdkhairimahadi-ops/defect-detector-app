@@ -7,7 +7,7 @@ import numpy as np
 import os
 
 # --- CONFIG ---
-MODEL_PATH = "runs/detect/train8/weights/best.pt"
+MODEL_PATH = "runs/detect/train10/weights/best.pt
 CONF_THRESHOLD = 0.25
 
 st.set_page_config(
